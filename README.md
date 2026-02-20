@@ -8,3 +8,6 @@ Use from terminal
 python to_ppm.py <input_file_path> [max_height]
 ```
 This will generate a `output.ppm` image file containing the data from the inputed file as an image
+
+## Issues
+At the moment, even in full size (generating a file without specifying a max_height) it cannot be used to revert to the original as I truncate the original bytes to have a square image. The data loss chance grows with the size of the input file (but if the input file has a size of a perfect square in bytes, it might be possible in theory)
