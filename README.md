@@ -11,3 +11,10 @@ This will generate a `output.ppm` image file containing the data from the inpute
 
 ## Issues
 At the moment, even in full size (generating a file without specifying a max_height) it cannot be used to revert to the original as I truncate the original bytes to have a square image. The data loss chance grows with the size of the input file (but if the input file has a size of a perfect square in bytes, it might be possible in theory)
+
+## Examples
+This is the image generated using the script itself as input file :
+![Image generated with the script](/assets/img/generation_examples/script.ppm)
+
+This one was generated using this README file :
+![Image generated with the README file](/assets/img/generation_examples/readme.ppm)
