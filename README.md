@@ -14,7 +14,7 @@ At the moment, even in full size (generating a file without specifying a max_hei
 
 ## Examples
 This is the image generated using the script itself as input file :
-![Image generated with the script](/assets/img/generation_examples/script.ppm)
+![Image generated with the script](/assets/img/generation_examples/script.png)
 
 This one was generated using this README file :
-![Image generated with the README file](/assets/img/generation_examples/readme.ppm)
+![Image generated with the README file](/assets/img/generation_examples/readme.png)
